@@ -8,6 +8,7 @@ import { useTheme } from "native-base";
 import { MaterialIcons } from "@expo/vector-icons";
 import { ShopCar } from "../pages/ShopCar";
 import { Favorites } from "../pages/Favorites";
+import { ProductDetail } from "../pages/ProductDetail";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -20,7 +21,7 @@ export function Routes() {
         screenOptions={{
           headerShown: false,
           tabBarInactiveTintColor: colors.gray[500],
-          tabBarActiveTintColor: colors.green,
+          tabBarActiveTintColor: colors.green[500],
           tabBarLabelStyle: { fontSize: 12, fontFamily: fonts.heading },
           tabBarStyle: {
             backgroundColor: colors.white,
@@ -57,6 +58,11 @@ export function Routes() {
               <MaterialIcons name="shopping-cart" size={30} color={color} />
             ),
           }}
+        />
+        <Screen
+          name="ProductDetail"
+          component={ProductDetail}
+          options={{ tabBarButton: () => null }}
         />
       </Navigator>
     </NavigationContainer>

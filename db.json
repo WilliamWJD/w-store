@@ -1,0 +1,67 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Camisetas",
+      "image": "https://cdn.icon-icons.com/icons2/1247/PNG/256/3_84295.png"
+    },
+    {
+      "id": 2,
+      "name": "Frio",
+      "image": "https://bugueishop.com.br/wp-content/uploads/2022/07/Hoodie_Mockup-256x256.png"
+    },
+    {
+      "id": 3,
+      "name": "Calças",
+      "image": "https://new-world.guide/cdn/v1.8.0/items/lightlegs_clotht4.webp"
+    },
+    {
+      "id": 4,
+      "name": "Shorts",
+      "image": "https://reydonsports.com/web/image/product.template/66067/image_256"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Camiseta Casual",
+      "category": {
+        "id": 1,
+        "name": "Camisetas"
+      },
+      "price": "$ 25.80",
+      "image": "https://d1taioma509ygp.cloudfront.net/Custom/Content/Products/71/59/71597_cam-mcd-esp-full-pr-4092-12012004_m2_637430432879781539.png"
+    },
+    {
+      "id": 2,
+      "name": "Short",
+      "category": {
+        "id": 4,
+        "name": "Shorts"
+      },
+      "price": "$ 85.80",
+      "image": "https://i2.wp.com/www.somarprime.com.br/wp-content/uploads/2020/09/WhatsApp_Image_2020-08-27_at_16.54.32__2_-removebg-preview.png?resize=300%2C433&ssl=1"
+    },
+    {
+      "id": 3,
+      "name": "Blusa Moleton",
+      "category": {
+        "id": 2,
+        "name": "Frio"
+      },
+      "price": "$ 180.80",
+      "image": "https://hugobossstore.vtexassets.com/arquivos/ids/240786/4047393700090-Blusa-de-Moletom-HUGO-Daple-Azul_1.png?v=1776960751"
+    },
+    {
+      "id": 4,
+      "name": "Camiseta Casual",
+      "category": {
+        "id": 1,
+        "name": "Camisetas"
+      },
+      "price": "$ 25.80",
+      "image": "https://d1taioma509ygp.cloudfront.net/Custom/Content/Products/71/59/71597_cam-mcd-esp-full-pr-4092-12012004_m2_637430432879781539.png"
+    }
+  ]
+}

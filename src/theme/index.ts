@@ -10,8 +10,12 @@ export const THEME = extendTheme({
       200: "#F6F6F6",
     },
     white: "#FFFFFF",
-    red: "#E02954",
-    green: "#218D96",
+    red: {
+      500: "#E02954"
+    },
+    green: {
+      500: "#218D96"
+    },
   },
   fonts: {
     heading: "Inter_700Bold",
